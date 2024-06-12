@@ -1,0 +1,15 @@
+.wrapper {
+    @apply flex justify-between items-center py-4 text-sm w-8/12 mx-auto sticky top-0
+}
+
+.tags {
+    @apply flex justify-between items-center gap-5
+}
+
+.tag {
+    @apply font-semibold hover:text-primary duration-200
+}
+
+.btn {
+    @apply bg-primary font-semibold text-base text-white py-2 px-5 rounded-3xl
+}
