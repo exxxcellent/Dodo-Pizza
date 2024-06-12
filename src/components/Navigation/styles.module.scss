@@ -1,0 +1,25 @@
+.wrapper {
+    @apply flex justify-between items-center py-4 text-sm w-8/12 mx-auto
+}
+
+.nav {
+    @apply flex items-center gap-5;
+
+    li {
+        @apply flex items-center justify-center flex-col duration-100 hover:cursor-pointer hover:text-primary;
+
+
+        &:hover>img {
+            transform: translateY(-5px);
+        }
+
+        img {
+            transition: .1s all ease;
+            @apply w-7;
+        }
+
+        a {
+            @apply font-semibold
+        }
+    }
+}

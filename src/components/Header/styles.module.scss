@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.wrapper {
+    @apply flex items-center py-4 text-sm w-8/12 mx-auto
+}
+
+.links {
+    @apply flex gap-4
+}
+
+.link {
+    @apply font-semibold hover:text-primary duration-200
+}
